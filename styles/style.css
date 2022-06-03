@@ -14,7 +14,6 @@ html {
 }
 * li {
 	list-style: none;
-	/* color: #4f5665; */
 }
 
 container {
@@ -28,20 +27,18 @@ container {
 	background-color: #fff;
 	border-radius: 59px;
 	margin: 148px auto;
-	/* border: 1px solid #0f4264; */
 	display: flex;
 	flex-direction: row;
 	box-shadow: 10px 10px 50px #f1f1f1;
-	/* background-color: #e5e5e5; */
 }
+
 .home {
 	width: 250px;
 	height: 100%;
 	margin-left: 10px;
-	/* background-color: blanchedalmond; */
 	border-right: 1px solid #aeaeae;
-	/* margin-top: 60px; */
 }
+
 .logo {
 	width: 136px;
 	height: 29px;
@@ -50,10 +47,12 @@ container {
 	justify-content: space-around;
 	padding: 55px 0px 79px 43px;
 }
+
 .logo h5 {
 	color: #0f4264;
 	font-size: 17px;
 }
+
 .home-menu {
 	position: relative;
 }
@@ -69,15 +68,12 @@ container {
 	height: 39px;
 	background-color: #f0f7ff;
 	border-radius: 4px;
-	/* margin-right: 50px; */
 	margin: 10px 0px;
-	/* margin-left: 10px; */
-	/* padding-bottom: 50px; */
 }
+
 .home-menu-overview {
 	color: #197bbd !important;
 	font-weight: bold;
-	/* margin-bottom: 20px; */
 }
 
 .home-menu-overview::before {
@@ -116,9 +112,7 @@ container {
 	left: 25px;
 }
 .home-weather {
-	/* width: 104px; */
 	height: 109px;
-	/* margin: 200px 0px 15px 79px; */
 	border-radius: 1px solid blue;
 	text-align: center;
 	margin-top: 200px;
@@ -158,26 +152,17 @@ container {
 .sumup-card {
 	width: 597px;
 	height: 364px;
-	/* background-color: #ffc145; */
-	/* margin: 30px; */
 	margin-left: 36px;
-	/* padding: 0px 24px; */
 	border-radius: 28px;
 	box-shadow: 0px 10px 15px #f1f1f1;
 	position: relative;
-	/* padding: 18px 30px 35px 24px; */
 }
 .sumup-card-title {
-	/* margin: 18px 0 18px 24px;/ */
-	/* margin-top: 18px; */
 	padding-top: 18px;
 	margin-top: 24px;
 	margin-left: 25px;
 }
 .sumup-card-img {
-	/* margin-left: -10px; */
-	/* width: 320.43px;
-	height: 206.17px; */
 	margin-top: 12px;
 	margin-left: 10px;
 }
@@ -189,7 +174,6 @@ container {
 .sumup-right-arrow {
 	position: absolute;
 	top: 150px;
-	/* left: px; */
 	left: 362px;
 }
 
@@ -197,34 +181,24 @@ container {
 	width: 320.43px;
 	height: 9.47px;
 	background-color: #f1f1f1;
-	/* border: 1px solid black; */
 	border-radius: 13px;
-	/* margin-left: 40px; */
-	/* margin-bottom: 10px; */
-	/* margin-top: 50px; */
-	/* margin-top:px; */
 	position: relative;
 	margin-left: 35px;
 	margin-top: -20px;
-	/* margin-bottom: 20px; */
 }
+
 .sumup-line2 {
 	width: 69.25px;
 	height: 9.06px;
 	background-color: #197bbd;
 	border-radius: 10.78px;
 	position: absolute;
-	/* top: 255px; */
 	bottom: 58.5px;
-	/* left: 24px; */
 	margin-left: 35px;
 }
 .sumup-card-txt {
-	/* margin-left: 16px; */
 	font-size: 14px;
 	color: #aeaeae;
-	/* margin-left: 26px; */
-	/* margin: 11px 68px 35px 0px; */
 	margin-left: 35px;
 	margin-top: 11px;
 }
@@ -263,12 +237,6 @@ container {
 	color: #bb4430;
 }
 
-/* .card-img {
-	content: url("../images/arrow1.svg");
-	position: absolute;
-	z-index: 1;
-	left: 0px;
-} */
 .history {
 	width: 597px;
 	height: 323px;
@@ -292,17 +260,14 @@ th {
 }
 
 table {
-	/* border: 3px solid grey; */
 	text-align: left;
 	background: white;
-	/* max-width: 70%; */
 	width: 503px;
 	border-collapse: collapse;
 	margin-left: 24px;
 }
 td {
 	width: 100px;
-	/* padding: 50px; */
 	border-bottom: 1px solid #ccc;
 	color: #c7c7c7;
 	padding: 9px 8px 0px 0px;
@@ -311,7 +276,6 @@ td {
 	font-size: 14px;
 }
 tr {
-	/* padding: 10px; */
 	height: 20px;
 	margin: 24px;
 }
@@ -320,14 +284,11 @@ tr {
 	color: #404040;
 	width: 200px;
 	font-size: 14px;
-	/* padding-right: 64px; */
-	/* margin-right: 50px; */
 }
 .cash {
 	color: #404040;
 	font-weight: bold;
 	font-size: 14px;
-	/* margin: 18px 28px 24px 71px; */
 	padding-left: 30px;
 }
 .amount {
@@ -337,8 +298,6 @@ tr {
 .vl {
 	width: 1px;
 	height: 199.86px;
-	/* height: auto; */
-	/* background-color: #e8e8e8; */
 	background-color: #e8e8e8;
 	margin-top: -280px;
 	margin-left: 400px;
@@ -352,13 +311,11 @@ tr {
 	z-index: auto;
 }
 .photopost img {
-	/* position: absolute; */
 	margin-top: -15px;
 	margin-left: -10px;
 }
 .info-account {
 	display: flex;
-	/* width: 150px; */
 	justify-content: space-around;
 	align-items: center;
 	margin-right: 45px;
@@ -400,7 +357,6 @@ tr {
 .block1,
 .block2,
 .block3 {
-	/* background-color: #aeaeae; */
 	width: 158px;
 	height: 165px;
 	margin-right: 15px;
@@ -409,19 +365,16 @@ tr {
 	padding-left: 24px;
 	border-radius: 28px;
 	box-shadow: 0px 10px 20px #f1f1f1;
-	/* text-align: left; */
 }
 
 .wrapper-arrow {
 	position: absolute;
 	left: 500px;
 	top: 60px;
-	/* margin-right: 200px; */
 }
 .block-currency {
 	font-size: 23.98px;
 	color: #696969;
-	/* font-weight: ; */
 }
 .block-date {
 	color: #aeaeae;
@@ -498,7 +451,6 @@ tr {
 	width: 281.33px;
 	height: 9.47px;
 	border-radius: 10.78px;
-	/* background: linear-gradient(#209d43, 10%, #2bc255); */
 	background-color: #70a6e8;
 	position: absolute;
 	top: 12px;
@@ -521,48 +473,32 @@ tr {
 
 .loan {
 	position: absolute;
-	/* left: 80px;
-	 */
 	right: 220px;
-	/* top: 10px; */
 	bottom: -118px;
 }
 .transaction-title {
-	/* margin: 15px 0px 0px 10px; */
-	/* margin: 35px auto; */
 	padding-top: 13px;
 	padding-left: 10px;
-
 	font-size: 20.11px;
 	color: #404040;
 	width: 200px;
 }
 .box {
-	/* margin: 14px 0px; */
-	/* left: 50px; */
-	/* padding-left: 15px; */
-	/* padding: 10px; */
-	/* padding-right: 25px; */
 	width: 42.14px;
 	height: 59.12px;
-	/* margin-left: -50px; */
-	/* margin: 0 auto; */
 	margin: 10px 0px;
 }
 .box p {
 	font-size: 12px;
 	color: #404040;
-	/* padding: 15px; */
 	margin-left: 15px;
 }
 .box img,
 .box6 img {
-	/* margin-left: 15px; */
 	margin-left: 10px;
 }
 
 .box6 {
-	/* position: relative; */
 	margin-top: 14px;
 }
 .box6 p {
